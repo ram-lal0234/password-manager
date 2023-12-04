@@ -41,6 +41,7 @@ export class PasswordComponent implements OnInit {
   addPassword():any{
     this.passService.addData(this.userDataForm.value).subscribe((res)=>{
       this.getData();
+      this.userDataForm.reset();
     },(err)=>{
       console.log(err);
     })
