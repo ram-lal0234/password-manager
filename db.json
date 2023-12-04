@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "website": "whatsapp",
+      "username": "ramlal",
+      "password": "Ram@1234"
+    },
+    {
+      "website": "instagram",
+      "username": "jaypraksh0234",
+      "password": "ram@1234",
+      "id": 2
+    }
+  ]
+}
